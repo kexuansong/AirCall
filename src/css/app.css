@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 #app {
   position: absolute;
   display: flex;
@@ -7,6 +9,7 @@
   top: 0;
   right: 0;
   bottom: 0;
+  font-family: 'Muli', sans-serif;
 }
 
 #app .container {
@@ -23,3 +26,6 @@
   padding: 20px;
 }
 
+.btn-primary{
+  background-color: white;
+}
